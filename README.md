@@ -15,7 +15,7 @@ composer require janmensik/phphelpers
 ```php
 use JanMensik\PHPHelpers\Helpers;
 
-$snake = Helpers::toSnakeCase('HelloWorld'); // hello_world
+$url_string = Helpers::text2seolink("Hello World."); // "hello-world"
 
 use JanMensik\PHPHelpers\UrlParameters;
 
