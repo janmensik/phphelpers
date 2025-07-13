@@ -1,0 +1,18 @@
+{
+    "name": "janmensik/phphelpers",
+    "description": "Pack of small helper functions for transformations input and outputs.",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "JanMensik\\PHPHelpers\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jan Mensik",
+            "email": "jan.mensik@gmail.com"            
+        }
+    ],
+    "require": {}
+}
