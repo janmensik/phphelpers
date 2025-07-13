@@ -16,4 +16,8 @@ composer require janmensik/phphelpers
 use JanMensik\PHPHelpers\Helpers;
 
 $snake = Helpers::toSnakeCase('HelloWorld'); // hello_world
+
+use JanMensik\PHPHelpers\UrlParameters;
+
+$new_url = new UrlParameters($url);
 ```
